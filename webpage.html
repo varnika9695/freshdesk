@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpdesk</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        header{
+            position: relative;
+            height: 70px;
+            border-style: solid ;
+            background-color: white;
+            border-color: white;
+            top: -10px;
+        }
+        .fa-search{
+            position: absolute;
+            left: 1240px;
+            top: 26px;
+            
+        }
+        .fa-bell{
+            position: absolute;
+            left: 1320px;
+            top: 20px; 
+            color: gray  
+        }
+        .fa-gift{
+            position: absolute;
+            left: 1360px;
+            top: 20px; 
+            color: gray    
+        }
+        .fa-calendar{
+            position: absolute;
+            left: 1400px;
+            top: 20px; 
+            color: gray    
+        }
+        .fa-square {
+            position: absolute;
+            left: 1450px;
+            top: 20px; 
+            color:plum;        }
+            .h-block{
+                border-style: solid;
+                width: 5%;
+                height: 720px;
+                position: absolute;
+                top: 0px;
+                border-color: #12344d;
+                background-color: #12344d;
+                left: -10px;
+            }
+            .fa-headphones{
+            color:12344d;
+            position: absolute;
+            top: 11px;
+           margin-left: 18px;
+            border-radius: 50%;
+            border-style: solid;
+            background-color: white;
+            border-color: white;}
+            .s-block{
+                background-color: #11344D;
+                height: 70px;
+                width: 5%;
+            }
+            .fa-tachometer{
+                color: aliceblue;
+                position: absolute;
+                top: 90px;
+                left: 25px;
+            }
+            .fa-ticket{
+                color: aliceblue;
+                position: absolute;
+                top: 170px;
+                left: 25px;
+
+
+            }
+            
+            .fa-user {
+             color: aliceblue;
+             position: absolute;
+             top: 240px;
+             left: 25px;
+             border-style: solid;
+             border-color: aliceblue;
+
+            }
+            .fa-book{
+                color: aliceblue;
+             position: absolute;
+             top: 320px;
+             left: 22px;
+             border-style: solid;
+             border-color: aliceblue;
+            }
+            .fa-bar-chart{
+                color: aliceblue;
+             position: absolute;
+             top: 400px;
+             left: 22px;
+             border-style: solid;
+             border-color: aliceblue;
+             
+            }
+            .fa-cog{
+                color: aliceblue;
+             position: absolute;
+             top: 470px;
+             left: 28px;  
+            }
+            .btn{
+                cursor: pointer;
+            }
+            table{
+             background-color: white;
+             width: 25%; 
+             height: px;
+             margin-left: 60px;
+            padding-bottom: 20px;
+
+        
+
+            }
+           .fa-circle-thin{
+               position: relative;
+               
+               left: 35px;
+               color: gray;
+           }
+           form{
+               border-color: white;
+               background-color: white;
+               border-style: solid;
+               width: 69.5%;
+               margin-left:450px;
+               position: relative;
+               top: -674px;
+               height: 640px;
+           }
+           input{
+               height: 30px;
+               margin-left: 20px;
+               width: 90%;
+           }
+           label{
+               margin-left: 20px;
+               font-size: 20px;
+           }
+    </style>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <p style=" font-size: 20px; padding-left: 90px; ">Get started</p>
+    <button style="position: relative; top: -40px; left: 950px;">Get started 16%</button>
+   <select style="position: relative; left: 970px; top: -40px; background-color: lightgray; border-color: lightgray;" aria-placeholder="New">
+    <option value="new">+ New</option>
+    <option value="ticket">New Ticket</option>
+   <option value="email">New Email</option>
+    <option value="contact">New Contact</option>
+    <option value="company">New Company</option>
+</select>
+<input style="width: 3%; height: 20px; padding-left: 25px; position: relative; left: 980px; top: -40px;" type="text" placeholder="Search">
+<i class="fa fa-search" aria-hidden="true"></i>
+<i class="fa fa-bell fa-2x" aria-hidden="true"></i>
+<i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+<i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+<i class="fa fa-square fa-2x" aria-hidden="true"></i>
+<p style="position: absolute; left: 1457px; top: 12px; font-weight: bolder; color: rgb(63, 71, 63);">V</p>
+</header>
+
+<div class="h-block">
+    <div>
+        <i class="fa fa-headphones fa-2x" aria-hidden="true"></i><br><br>
+           <i class="fa fa-tachometer " aria-hidden="true"></i>
+                <i class="fa fa-ticket  " aria-hidden="true"></i>
+                    <i class="fa  fa-user " aria-hidden="true"></i>
+                        <i class="fa fa-book " aria-hidden="true"></i>
+                           <i class="fa fa-bar-chart " aria-hidden="true"></i>
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+</div>
+</div>
+<div class="comtainer">
+    <div class="row">
+        <div class="col-4">
+            <table>
+            <tr>
+                <td>
+                    <i class="fa fa-circle-thin fa-4x" aria-hidden="true"></i>
+                    <p style="position:relative; top:-56px; left:13%;color:green">16%</p>
+                    <h2 style="position: relative; top: -94px; left: 95px; font-size: 20px;">Get started with Freshdesk</h2></td>
+            </tr>
+            <div style="overflow-y: auto;">
+            <tr >
+                <td style="position: relative;top:-70px ; left: 0px;border-style: solid;height: 30px;  background-color:rgb(64, 255, 47); border-color:rgb(64, 255, 47) ;"> 
+                    Sign up for Freshdesk</td>
+                     </td> </tr>
+                     <tr >
+                         <td style="background-color: lightgray; padding-left:30px ; position: relative; top: -40px;  ">
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Update your account details</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Activate your account</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Personalize your helpdesk</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Choose your support channels</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Set up your support email</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Invite your team</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >Start managing conversations</span><br><br>
+                            <i style="position: relative; top:-3px ; left: -20px; color: black; " class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span style="position: relative;top: -10px; left: -15px; " >More resources</span><br><br>
+                        </td></tr>
+                        <tr>
+                            <td>
+                                <span style="color: gray; position: relative;top: -30px; left: 10px; font-size: 20px;" >20 days of free trial<br>remaining</span>
+                                <button style="position: relative; left: 190px; top: -50px; background-color: navy; color: white;">Choose Plan</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <form>
+<h1 style="margin-left: 10px;">Confirm your details</h1>
+<h5 style="margin-left: 20px; color: grey; position: relative; top: -10px; font-weight: normal;font-size: 15px;">We will use this information to send all account related updates</h5>
+                 <span onclick="phpto" style="color: blue; font-size: 30px; margin-left: 55px;">Upload your Photo</span>
+                 <p style="margin-left: 55px; color: gray;">An image of the person,it's best if it has the<br>same length and height.</p><br>
+
+                  <label for="name">First Name<span style="color: red;">*</span></label >
+                  <label  style="position: relative; left: 400px;" for="name">Last Name<span style="color: red;">*</span></label><br>
+                  <input type="text" style="width: 45%;" name="name" id="name" required>
+                  <input type="text" name="name" style="width: 42%;" id="name" required><br><br>
+                  <label for="Email">Email</label><br>
+                  <input type="text" name="name" id="name" ><br><br>
+                  <label for="phone" >Phone Number</label><br>
+                  <input type="text" name="phone" id="phone" required><br><br>
+                  <label for="company">Company<span style="color: red;">*</span></label><br>
+                  <input type="text" name="company" id="company" required><br><br><br>
+
+                  <button style="margin-left: 20px;" onclick="confirm">Confirm</button>
+
+
+
+
+
+
+</form>
+                        
+                        </div>
+        </div>
+       
+        </div>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
